@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jun, 2020, 11:12:01 AM
+    Author     : FORAM JHALA
+*/
+
+body{
+    background-color: #fff;
+    width: 100%;
+    height: 100%
+}
+ .me{
+                  background-color: grey;
+                  color: #800000;
+                  padding-bottom: 10px;
+              }
+.word{
+    color: #800000;
+}
+.footer{
+        background-color: #800000;
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 20px;
+ }
+.collapse{
+            height: 350px;
+            padding: 15px 50px;
+            font-size: 18px;
+            font-weight: bold;
+}
+.website{
+            width: 100%;
+            margin: auto;
+            margin-top: 0px;
+ }
+ .navbar{
+            background-color: #800000;
+            color:#fff;
+            border-color: #080808;
+            min-height: 50px;
+            border: 1px solid transparent;
+            padding-top: 3px;
+            margin-bottom: 0px;
+}
+.navbar-right{
+                padding-right: 20px;
+}
+.navbar-right > ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+}
+.navbar-header{
+                height: 80px;
+                padding: 15px;
+                padding-left: 50px;
+                font-size: 20px;
+                font-weight: bold;
+}
+.navbar-brand{
+    font-size: 20px;
+    padding-left: 10px;
+}
+li{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    float: right;
+  }
+ .dropdown{
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: inherit ;
+            font-family: inherit; /* Important for vertical align on mobile phones */
+            margin: 0; /* Important for vertical align on mobile phones */
+}
+       .link1{
+                 color: #fff;
+                 text-decoration: none;
+              }
+            .link1:link{
+                  color: #fff;
+                  text-decoration: none;
+              }
+              .link1:hover{
+                  color: yellow;
+                  text-decoration: none;
+              }
+             .link1:visited{
+                   color: #fff;
+                  text-decoration: none;
+              }
+              .btn{
+                        background-color: #800000;
+                        border-color: transparent;
+                        padding-top: 0px;
+                        font-weight: bold;
+                        margin-right: 0px;
+                        margin-left: 0px;
+              }
+              .navbar-right > a:hover{
+                 background-color: #800000;
+                  border-color: transparent;
+                  color: yellow;
+              }
+              .dropdown-item{
+                  padding-bottom: 10px;
+              }
+              .dropdown-menu > a{
+                  color: #800000;
+                  font-size: 19px;
+              }
+              .dropdown-menu{
+                  margin: 0px -25px 0px -25px;
+                  padding: 10px 8px 10px 8px;
+              }
+              .dropdown{
+                  padding-right: 0px;
+                  padding-left: 0px;
+              }
+              .maintopics > ul >  li{
+                            color: red;
+                            float: left;
+              } 
+              .panel-body{
+                  height: 200px;
+              }
+              .panel > .panel-heading{
+                  background-color: #800000;
+                  color: #fff;
+              }
+              .panel{
+                  margin-top: 50px;
+              }
+              .bd{
+                  padding-bottom: 15px;
+                  border-bottom: 1px solid grey;
+              }
+@media(max-width: 1023px){  .navbar-header{
+                                        height: 50px;
+                                        padding: 10px;
+                                        padding-left: 5px;
+                                        font-size: 10px;
+                                        font-weight: bold;
+                                       }
+                         .navbar-brand{
+                                        font-size: 18px;
+                                        padding-left: 15px;
+                                    }
+                                 li{
+                                        float: right;
+                                        padding-right: 28px;
+                                        padding-left: 28px;
+                                    }
+                        .btn{
+                                margin-left: 60px;
+                                margin-right: 0px;
+                                padding-right: 0px;
+                        }
+                         .dropdown-menu > a{
+                                            color: #fff;
+                                            font-size: 19px;
+              }
+              .maintopics > ul > li > h3{
+                                                    font-size: 28px;
+              }
+}
+@media(max-width:767px){  .navbar-header{
+                                        height: 50px;
+                                        padding: 10px;
+                                        padding-left: 5px;
+                                        font-size: 10px;
+                                        font-weight: bold;
+                                       }
+                         .navbar-brand{
+                                        font-size: 18px;
+                                        padding-left: 15px;
+                                    }
+                                 li{
+                                        float: left;
+                                        padding-right: 30px;
+                                        padding-left: 30px;
+                                    }
+                        .btn{
+                                margin-left: 0px;
+                                margin-right: 60px;
+                                padding-left: 0px;
+                        }
+                         .dropdown-menu > a{
+                                            color: #fff;
+                                            font-size: 19px;
+              }
+}
+@media(max-width:374px){ .navbar-header{
+                                        height: 50px;
+                                        padding: 10px;
+                                        padding-left: 5px;
+                                        font-size: 10px;
+                                        font-weight: bold;
+                                       }
+                         .navbar-brand{
+                                        font-size: 16px;
+                                        padding-left: 0px;
+                                      }
+                        li{
+                            float: left;
+                        }
+                        .btn{
+                                    margin-left: 0px;
+                                    margin-right: 50px;
+                        }
+                        .dropdown-item{
+                            color: #fff;
+                        }
+                         .dropdown-menu > a{
+                                            color: #fff;
+                                            font-size: 19px;
+              }
+}   
+  @media(min-width: 1024px){ .table{
+                                                margin: 50px;
+                                                float: right;
+                                            }
+            }
+            
+            @media(max-width: 767px){ .maintopics > ul > li > h3{
+                                                    font-size: 15px;
+                                                    margin-bottom: 0px;
+                                                    margin-top: 0px;
+                                                    float: none;
+                                       }
+                                       .table{
+                                           width: 250px;
+                                           margin-top: 50px;
+                                           padding-top: 50px;
+                                       }
+            }
+            @media(max-width: 424px){ .table{
+                                          width: 250px;
+            }}
+            @media(max-width: 424px){ .table{
+                                          width: 250px;
+                                          float: none;
+                                        }
+                                        .maintopics > ul > li > h3{
+                                            float: none;
+                                            font-size: 10px;
+                                        }
+            }
+            
+
+
