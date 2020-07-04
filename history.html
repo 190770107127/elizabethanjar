@@ -19,6 +19,12 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" type="text/css" href="style.css">
           <style>
+              body{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: #eee;
+              }
               .jumbotron > h1{
                   color: green;
               }
@@ -28,6 +34,7 @@ and open the template in the editor.
               </style>
     </head>
     <body>
+        <header>
                   <nav class="nav navbar-fixed navbar-default">
             <div class="navbar">
                 <div class="website">
@@ -90,22 +97,25 @@ and open the template in the editor.
             </div>
             </div>
         </nav>
-    <center>
-        <div class="jumbotron">
-            <h1> <i class="fa fa-spinner fa-spin"></i> Working On it.</h1>
-            <h2> Come After Sometime.</h2>
-        </div>
-    </center>
+    </header>
+    <main>
+        <center>
+            <div class="jumbotron">
+                <h1> <i class="fa fa-spinner fa-spin"></i> Working On it.</h1>
+                <h2> Come After Sometime.</h2>
+            </div>
+        </center>
+    </main>
              <footer class="footer">
             <div class="website">
                 <center>
-                    <p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span>
-                    Copyright St. Elizabeth School, Anjar. All Rights Reserved|Contact Us: +91-8448444853.</p>
-                </center>
+                   <small><p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span>
+                    Copyright St. Elizabeth School, Anjar. All Rights Reserved|Contact Us: +91-8448444853.</p></small>
+                    </center>
             </div>
-        </footer>
          <marquee class="me" width="100%" direction="left" height="50px" scroolamount="40">
-       <h3>Made by Bhanudatsinh Jhala, For any changes or suggestion email me on "190770107061@socet.edu.in" </h3>
-    </maruqee>
+      <small> <p>Made by Bhanudatsinh Jhala, For any changes or suggestion email me on "190770107061@socet.edu.in"</p></small>
+        </maruqee>
+    </footer>
     </body>
 </html>
